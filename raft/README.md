@@ -1,19 +1,15 @@
-# Go implementation of Raft consensus algorithm
+## Go implementation of Raft consensus algorithm
 
 Raft description: https://raft.github.io/
 
-This is hobby project for me to learn raft algorithm. Not designed for any other use than educational.
+Needs assert package, fetch using `go get github.com/stretchr/testify/assert`
 
-## Should be fixed
 
-* [ ] Validate all struct fields in the tests
-* [ ] Maintain mapping between nodes and last applied log entry
-* [ ] Retry appendEntries RPC indefinitely
-* [ ] Maybe call raft methods from server with channels
-      (this is not straighforward and adds a lot of complexity)
+## Test
 
-## Implemented features
+simply run using `go test` in the parent directory, the console will print status messages detailing everything
 
+## Status
 * [x] Leader election
 * [x] Log replication
 * [ ] Consistent state machines
