@@ -1,0 +1,344 @@
+[97;42m[node-3010][0m 2017/03/18 17:53:33.625231 raft.go:86: Initiating raft with current node [97;42m[node-3010][0m: http://127.0.0.1:3010
+[97;42m[node-3010][0m 2017/03/18 17:53:33.625372 raft.go:89: Initiating raft with other nodes [97;46m[node-3014][0m: http://127.0.0.1:3014
+[97;42m[node-3010][0m 2017/03/18 17:53:33.625384 raft.go:89: Initiating raft with other nodes [97;43m[node-3011][0m: http://127.0.0.1:3011
+[97;42m[node-3010][0m 2017/03/18 17:53:33.625391 raft.go:89: Initiating raft with other nodes [97;44m[node-3012][0m: http://127.0.0.1:3012
+[97;42m[node-3010][0m 2017/03/18 17:53:33.625401 raft.go:89: Initiating raft with other nodes [97;45m[node-3013][0m: http://127.0.0.1:3013
+[97;43m[node-3011][0m 2017/03/18 17:53:33.625411 raft.go:86: Initiating raft with current node [97;43m[node-3011][0m: http://127.0.0.1:3011
+[97;43m[node-3011][0m 2017/03/18 17:53:33.625418 raft.go:89: Initiating raft with other nodes [97;44m[node-3012][0m: http://127.0.0.1:3012
+[97;43m[node-3011][0m 2017/03/18 17:53:33.625423 raft.go:89: Initiating raft with other nodes [97;45m[node-3013][0m: http://127.0.0.1:3013
+[97;43m[node-3011][0m 2017/03/18 17:53:33.625432 raft.go:89: Initiating raft with other nodes [97;46m[node-3014][0m: http://127.0.0.1:3014
+[97;43m[node-3011][0m 2017/03/18 17:53:33.625438 raft.go:89: Initiating raft with other nodes [97;42m[node-3010][0m: http://127.0.0.1:3010
+[97;44m[node-3012][0m 2017/03/18 17:53:33.625446 raft.go:86: Initiating raft with current node [97;44m[node-3012][0m: http://127.0.0.1:3012
+[97;44m[node-3012][0m 2017/03/18 17:53:33.625454 raft.go:89: Initiating raft with other nodes [97;43m[node-3011][0m: http://127.0.0.1:3011
+[97;44m[node-3012][0m 2017/03/18 17:53:33.625461 raft.go:89: Initiating raft with other nodes [97;45m[node-3013][0m: http://127.0.0.1:3013
+[97;44m[node-3012][0m 2017/03/18 17:53:33.625467 raft.go:89: Initiating raft with other nodes [97;46m[node-3014][0m: http://127.0.0.1:3014
+[97;44m[node-3012][0m 2017/03/18 17:53:33.625473 raft.go:89: Initiating raft with other nodes [97;42m[node-3010][0m: http://127.0.0.1:3010
+[97;45m[node-3013][0m 2017/03/18 17:53:33.625480 raft.go:86: Initiating raft with current node [97;45m[node-3013][0m: http://127.0.0.1:3013
+[97;45m[node-3013][0m 2017/03/18 17:53:33.625486 raft.go:89: Initiating raft with other nodes [97;46m[node-3014][0m: http://127.0.0.1:3014
+[97;45m[node-3013][0m 2017/03/18 17:53:33.625492 raft.go:89: Initiating raft with other nodes [97;42m[node-3010][0m: http://127.0.0.1:3010
+[97;45m[node-3013][0m 2017/03/18 17:53:33.625498 raft.go:89: Initiating raft with other nodes [97;43m[node-3011][0m: http://127.0.0.1:3011
+[97;45m[node-3013][0m 2017/03/18 17:53:33.625504 raft.go:89: Initiating raft with other nodes [97;44m[node-3012][0m: http://127.0.0.1:3012
+[97;46m[node-3014][0m 2017/03/18 17:53:33.625512 raft.go:86: Initiating raft with current node [97;46m[node-3014][0m: http://127.0.0.1:3014
+[97;46m[node-3014][0m 2017/03/18 17:53:33.625518 raft.go:89: Initiating raft with other nodes [97;42m[node-3010][0m: http://127.0.0.1:3010
+[97;46m[node-3014][0m 2017/03/18 17:53:33.625524 raft.go:89: Initiating raft with other nodes [97;43m[node-3011][0m: http://127.0.0.1:3011
+[97;46m[node-3014][0m 2017/03/18 17:53:33.625530 raft.go:89: Initiating raft with other nodes [97;44m[node-3012][0m: http://127.0.0.1:3012
+[97;46m[node-3014][0m 2017/03/18 17:53:33.625535 raft.go:89: Initiating raft with other nodes [97;45m[node-3013][0m: http://127.0.0.1:3013
+2017/03/18 17:53:33 starting node [97;42m[node-3010][0m
+2017/03/18 17:53:33 starting node [97;43m[node-3011][0m
+2017/03/18 17:53:33 starting node [97;44m[node-3012][0m
+2017/03/18 17:53:33 starting node [97;45m[node-3013][0m
+2017/03/18 17:53:33 starting node [97;46m[node-3014][0m
+[97;44m[node-3012][0m 2017/03/18 17:53:33.625601 raft.go:102: Starting raft server...
+[97;43m[node-3011][0m 2017/03/18 17:53:33.625602 raft.go:102: Starting raft server...
+[97;43m[node-3011][0m 2017/03/18 17:53:33.625630 raft.go:105: Starting raft routine...
+[97;44m[node-3012][0m 2017/03/18 17:53:33.625644 raft.go:105: Starting raft routine...
+[97;44m[node-3012][0m 2017/03/18 17:53:33.625694 raft.go:461: Setting election timeout to 271 ms
+[97;43m[node-3011][0m 2017/03/18 17:53:33.625694 raft.go:461: Setting election timeout to 185 ms
+[97;44m[node-3012][0m 2017/03/18 17:53:33.625730 server.go:39: Running server on :3012
+[97;43m[node-3011][0m 2017/03/18 17:53:33.625732 server.go:39: Running server on :3011
+[97;46m[node-3014][0m 2017/03/18 17:53:33.625802 raft.go:102: Starting raft server...
+[97;46m[node-3014][0m 2017/03/18 17:53:33.625843 raft.go:105: Starting raft routine...
+[97;46m[node-3014][0m 2017/03/18 17:53:33.625877 raft.go:461: Setting election timeout to 151 ms
+[97;45m[node-3013][0m 2017/03/18 17:53:33.625899 raft.go:102: Starting raft server...
+[97;45m[node-3013][0m 2017/03/18 17:53:33.625910 raft.go:105: Starting raft routine...
+[97;46m[node-3014][0m 2017/03/18 17:53:33.625924 server.go:39: Running server on :3014
+[97;45m[node-3013][0m 2017/03/18 17:53:33.625928 raft.go:461: Setting election timeout to 199 ms
+[97;42m[node-3010][0m 2017/03/18 17:53:33.625951 raft.go:102: Starting raft server...
+[97;42m[node-3010][0m 2017/03/18 17:53:33.625972 raft.go:105: Starting raft routine...
+[97;45m[node-3013][0m 2017/03/18 17:53:33.625932 server.go:39: Running server on :3013
+[97;42m[node-3010][0m 2017/03/18 17:53:33.626021 server.go:39: Running server on :3010
+[97;42m[node-3010][0m 2017/03/18 17:53:33.626026 raft.go:461: Setting election timeout to 175 ms
+[97;46m[node-3014][0m 2017/03/18 17:53:33.782173 raft.go:275: Follower hasn't received append entries within election timeout, becoming a candidate
+[97;46m[node-3014][0m 2017/03/18 17:53:33.782449 raft.go:353: Sending request vote [97;45m[node-3013][0m: &{Term:1 CandidateID:node-3014 LastLogIndex:-1 LastLogTerm:0}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.782476 raft.go:353: Sending request vote [97;43m[node-3011][0m: &{Term:1 CandidateID:node-3014 LastLogIndex:-1 LastLogTerm:0}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.782449 raft.go:353: Sending request vote [97;44m[node-3012][0m: &{Term:1 CandidateID:node-3014 LastLogIndex:-1 LastLogTerm:0}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.782491 raft.go:353: Sending request vote [97;42m[node-3010][0m: &{Term:1 CandidateID:node-3014 LastLogIndex:-1 LastLogTerm:0}
+[97;45m[node-3013][0m 2017/03/18 17:53:33.784468 server.go:105: Received request vote request with payload: &{Term:1 CandidateID:node-3014 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:33.784468 server.go:105: Received request vote request with payload: &{Term:1 CandidateID:node-3014 LastLogIndex:-1 LastLogTerm:0}
+[97;43m[node-3011][0m 2017/03/18 17:53:33.784469 server.go:105: Received request vote request with payload: &{Term:1 CandidateID:node-3014 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:33.784542 server.go:114: Replying to request vote with: &{Term:0 VoteGranted:true}
+[97;45m[node-3013][0m 2017/03/18 17:53:33.784518 server.go:114: Replying to request vote with: &{Term:0 VoteGranted:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:33.784565 server.go:114: Replying to request vote with: &{Term:0 VoteGranted:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:33.784604 raft.go:461: Setting election timeout to 248 ms
+[97;45m[node-3013][0m 2017/03/18 17:53:33.784605 raft.go:461: Setting election timeout to 286 ms
+[97;44m[node-3012][0m 2017/03/18 17:53:33.784650 raft.go:461: Setting election timeout to 163 ms
+[97;42m[node-3010][0m 2017/03/18 17:53:33.784469 server.go:105: Received request vote request with payload: &{Term:1 CandidateID:node-3014 LastLogIndex:-1 LastLogTerm:0}
+[97;42m[node-3010][0m 2017/03/18 17:53:33.784746 server.go:114: Replying to request vote with: &{Term:0 VoteGranted:true}
+[97;42m[node-3010][0m 2017/03/18 17:53:33.784832 raft.go:461: Setting election timeout to 170 ms
+[97;46m[node-3014][0m 2017/03/18 17:53:33.784949 raft.go:360: Request vote reply [97;44m[node-3012][0m: &{Term:0 VoteGranted:true}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.784949 raft.go:360: Request vote reply [97;45m[node-3013][0m: &{Term:0 VoteGranted:true}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.784953 raft.go:360: Request vote reply [97;43m[node-3011][0m: &{Term:0 VoteGranted:true}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.784970 raft.go:360: Request vote reply [97;42m[node-3010][0m: &{Term:0 VoteGranted:true}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.785058 raft.go:291: Received 5 votes
+[97;46m[node-3014][0m 2017/03/18 17:53:33.785071 raft.go:293: Becoming a leader...
+[97;46m[node-3014][0m 2017/03/18 17:53:33.785086 raft.go:310: Sending append entries to all nodes...
+[97;46m[node-3014][0m 2017/03/18 17:53:33.785104 raft.go:313: Waiting for hearbeatInterval 150ms
+[97;46m[node-3014][0m 2017/03/18 17:53:33.785169 raft.go:391: Match indices map[node-3013:-1 node-3010:-1 node-3011:-1 node-3012:-1]
+[97;46m[node-3014][0m 2017/03/18 17:53:33.785194 raft.go:391: Match indices map[node-3011:-1 node-3012:-1 node-3013:-1 node-3010:-1]
+[97;46m[node-3014][0m 2017/03/18 17:53:33.785214 raft.go:391: Match indices map[node-3013:-1 node-3010:-1 node-3011:-1 node-3012:-1]
+[97;46m[node-3014][0m 2017/03/18 17:53:33.785232 raft.go:391: Match indices map[node-3012:-1 node-3013:-1 node-3010:-1 node-3011:-1]
+[97;46m[node-3014][0m 2017/03/18 17:53:33.785266 raft.go:412: Sending append entries [97;45m[node-3013][0m: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.785307 raft.go:412: Sending append entries [97;42m[node-3010][0m: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.785266 raft.go:412: Sending append entries [97;44m[node-3012][0m: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.785323 raft.go:412: Sending append entries [97;43m[node-3011][0m: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;42m[node-3010][0m 2017/03/18 17:53:33.785725 server.go:80: Received append entries request with payload: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;45m[node-3013][0m 2017/03/18 17:53:33.785728 server.go:80: Received append entries request with payload: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;42m[node-3010][0m 2017/03/18 17:53:33.785768 server.go:89: Replying to append entries with: &{Term:1 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:33.785725 server.go:80: Received append entries request with payload: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;45m[node-3013][0m 2017/03/18 17:53:33.785792 server.go:89: Replying to append entries with: &{Term:1 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:33.785827 server.go:89: Replying to append entries with: &{Term:1 Success:true}
+[97;44m[node-3012][0m 2017/03/18 17:53:33.785807 server.go:80: Received append entries request with payload: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;44m[node-3012][0m 2017/03/18 17:53:33.785875 server.go:89: Replying to append entries with: &{Term:1 Success:true}
+[97;45m[node-3013][0m 2017/03/18 17:53:33.785881 raft.go:271: Received append entries while a follower
+[97;43m[node-3011][0m 2017/03/18 17:53:33.785903 raft.go:271: Received append entries while a follower
+[97;43m[node-3011][0m 2017/03/18 17:53:33.785935 raft.go:461: Setting election timeout to 199 ms
+[97;44m[node-3012][0m 2017/03/18 17:53:33.785941 raft.go:271: Received append entries while a follower
+[97;45m[node-3013][0m 2017/03/18 17:53:33.785913 raft.go:461: Setting election timeout to 180 ms
+[97;44m[node-3012][0m 2017/03/18 17:53:33.785963 raft.go:461: Setting election timeout to 276 ms
+[97;42m[node-3010][0m 2017/03/18 17:53:33.785934 raft.go:271: Received append entries while a follower
+[97;42m[node-3010][0m 2017/03/18 17:53:33.786030 raft.go:461: Setting election timeout to 251 ms
+[97;46m[node-3014][0m 2017/03/18 17:53:33.786063 raft.go:423: Append entries request response [97;43m[node-3011][0m: &{Term:1 Success:true}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.786063 raft.go:423: Append entries request response [97;44m[node-3012][0m: &{Term:1 Success:true}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.786086 raft.go:423: Append entries request response [97;45m[node-3013][0m: &{Term:1 Success:true}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.786154 raft.go:423: Append entries request response [97;42m[node-3010][0m: &{Term:1 Success:true}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.935858 raft.go:310: Sending append entries to all nodes...
+[97;46m[node-3014][0m 2017/03/18 17:53:33.935920 raft.go:313: Waiting for hearbeatInterval 150ms
+[97;46m[node-3014][0m 2017/03/18 17:53:33.935995 raft.go:391: Match indices map[node-3010:-1 node-3011:-1 node-3012:-1 node-3013:-1]
+[97;46m[node-3014][0m 2017/03/18 17:53:33.936027 raft.go:391: Match indices map[node-3013:-1 node-3010:-1 node-3011:-1 node-3012:-1]
+[97;46m[node-3014][0m 2017/03/18 17:53:33.936049 raft.go:391: Match indices map[node-3013:-1 node-3010:-1 node-3011:-1 node-3012:-1]
+[97;46m[node-3014][0m 2017/03/18 17:53:33.936067 raft.go:391: Match indices map[node-3011:-1 node-3012:-1 node-3013:-1 node-3010:-1]
+[97;46m[node-3014][0m 2017/03/18 17:53:33.936095 raft.go:412: Sending append entries [97;42m[node-3010][0m: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.936108 raft.go:412: Sending append entries [97;43m[node-3011][0m: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.936126 raft.go:412: Sending append entries [97;45m[node-3013][0m: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.936126 raft.go:412: Sending append entries [97;44m[node-3012][0m: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;43m[node-3011][0m 2017/03/18 17:53:33.936517 server.go:80: Received append entries request with payload: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;44m[node-3012][0m 2017/03/18 17:53:33.936533 server.go:80: Received append entries request with payload: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;43m[node-3011][0m 2017/03/18 17:53:33.936554 server.go:89: Replying to append entries with: &{Term:1 Success:true}
+[97;45m[node-3013][0m 2017/03/18 17:53:33.936517 server.go:80: Received append entries request with payload: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;42m[node-3010][0m 2017/03/18 17:53:33.936533 server.go:80: Received append entries request with payload: &{Term:1 LeaderID:node-3014 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;44m[node-3012][0m 2017/03/18 17:53:33.936574 server.go:89: Replying to append entries with: &{Term:1 Success:true}
+[97;45m[node-3013][0m 2017/03/18 17:53:33.936607 server.go:89: Replying to append entries with: &{Term:1 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:33.936654 raft.go:271: Received append entries while a follower
+[97;43m[node-3011][0m 2017/03/18 17:53:33.936687 raft.go:461: Setting election timeout to 240 ms
+[97;42m[node-3010][0m 2017/03/18 17:53:33.936619 server.go:89: Replying to append entries with: &{Term:1 Success:true}
+[97;44m[node-3012][0m 2017/03/18 17:53:33.936684 raft.go:271: Received append entries while a follower
+[97;45m[node-3013][0m 2017/03/18 17:53:33.936698 raft.go:271: Received append entries while a follower
+[97;44m[node-3012][0m 2017/03/18 17:53:33.936738 raft.go:461: Setting election timeout to 194 ms
+[97;42m[node-3010][0m 2017/03/18 17:53:33.936771 raft.go:271: Received append entries while a follower
+[97;42m[node-3010][0m 2017/03/18 17:53:33.936832 raft.go:461: Setting election timeout to 243 ms
+[97;45m[node-3013][0m 2017/03/18 17:53:33.936854 raft.go:461: Setting election timeout to 188 ms
+[97;46m[node-3014][0m 2017/03/18 17:53:33.936891 raft.go:423: Append entries request response [97;45m[node-3013][0m: &{Term:1 Success:true}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.936901 raft.go:423: Append entries request response [97;43m[node-3011][0m: &{Term:1 Success:true}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.936917 raft.go:423: Append entries request response [97;44m[node-3012][0m: &{Term:1 Success:true}
+[97;46m[node-3014][0m 2017/03/18 17:53:33.936964 raft.go:423: Append entries request response [97;42m[node-3010][0m: &{Term:1 Success:true}
+2017/03/18 17:53:34 Exiting node [97;46m[node-3014][0m
+[97;46m[node-3014][0m 2017/03/18 17:53:34.026054 raft.go:109: Exiting raft...
+[97;46m[node-3014][0m 2017/03/18 17:53:34.026075 server.go:44: Stopping server...
+[97;45m[node-3013][0m 2017/03/18 17:53:34.128181 raft.go:275: Follower hasn't received append entries within election timeout, becoming a candidate
+[97;45m[node-3013][0m 2017/03/18 17:53:34.128329 raft.go:353: Sending request vote [97;46m[node-3014][0m: &{Term:2 CandidateID:node-3013 LastLogIndex:-1 LastLogTerm:0}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.128383 raft.go:353: Sending request vote [97;44m[node-3012][0m: &{Term:2 CandidateID:node-3013 LastLogIndex:-1 LastLogTerm:0}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.128328 raft.go:353: Sending request vote [97;43m[node-3011][0m: &{Term:2 CandidateID:node-3013 LastLogIndex:-1 LastLogTerm:0}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.128340 raft.go:353: Sending request vote [97;42m[node-3010][0m: &{Term:2 CandidateID:node-3013 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.128810 server.go:105: Received request vote request with payload: &{Term:2 CandidateID:node-3013 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.128847 server.go:114: Replying to request vote with: &{Term:1 VoteGranted:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.128871 server.go:105: Received request vote request with payload: &{Term:2 CandidateID:node-3013 LastLogIndex:-1 LastLogTerm:0}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.128902 server.go:114: Replying to request vote with: &{Term:1 VoteGranted:true}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.128919 server.go:105: Received request vote request with payload: &{Term:2 CandidateID:node-3013 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.128947 raft.go:461: Setting election timeout to 215 ms
+[97;42m[node-3010][0m 2017/03/18 17:53:34.128957 server.go:114: Replying to request vote with: &{Term:1 VoteGranted:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.129032 raft.go:461: Setting election timeout to 276 ms
+[97;42m[node-3010][0m 2017/03/18 17:53:34.129038 raft.go:461: Setting election timeout to 207 ms
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129185 raft.go:360: Request vote reply [97;43m[node-3011][0m: &{Term:1 VoteGranted:true}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129197 raft.go:360: Request vote reply [97;42m[node-3010][0m: &{Term:1 VoteGranted:true}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129235 raft.go:360: Request vote reply [97;44m[node-3012][0m: &{Term:1 VoteGranted:true}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129444 raft.go:356: Failed to request vote [97;46m[node-3014][0m: Failed to unmarshal request vote response '' (404 Not Found) with error unexpected end of JSON input
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129474 raft.go:291: Received 4 votes
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129486 raft.go:293: Becoming a leader...
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129502 raft.go:310: Sending append entries to all nodes...
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129517 raft.go:313: Waiting for hearbeatInterval 150ms
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129565 raft.go:391: Match indices map[node-3012:-1 node-3014:-1 node-3010:-1 node-3011:-1]
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129613 raft.go:391: Match indices map[node-3011:-1 node-3012:-1 node-3014:-1 node-3010:-1]
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129633 raft.go:391: Match indices map[node-3011:-1 node-3012:-1 node-3014:-1 node-3010:-1]
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129655 raft.go:391: Match indices map[node-3011:-1 node-3012:-1 node-3014:-1 node-3010:-1]
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129664 raft.go:412: Sending append entries [97;42m[node-3010][0m: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129703 raft.go:412: Sending append entries [97;43m[node-3011][0m: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129724 raft.go:412: Sending append entries [97;44m[node-3012][0m: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.129705 raft.go:412: Sending append entries [97;46m[node-3014][0m: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.129989 server.go:80: Received append entries request with payload: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.129989 server.go:80: Received append entries request with payload: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.130047 server.go:89: Replying to append entries with: &{Term:2 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.129988 server.go:80: Received append entries request with payload: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.130053 server.go:89: Replying to append entries with: &{Term:2 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.130113 server.go:89: Replying to append entries with: &{Term:2 Success:true}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.130130 raft.go:271: Received append entries while a follower
+[97;42m[node-3010][0m 2017/03/18 17:53:34.130156 raft.go:461: Setting election timeout to 253 ms
+[97;44m[node-3012][0m 2017/03/18 17:53:34.130154 raft.go:271: Received append entries while a follower
+[97;44m[node-3012][0m 2017/03/18 17:53:34.130189 raft.go:461: Setting election timeout to 218 ms
+[97;43m[node-3011][0m 2017/03/18 17:53:34.130202 raft.go:271: Received append entries while a follower
+[97;45m[node-3013][0m 2017/03/18 17:53:34.130111 raft.go:416: Failed to send append entries request [97;46m[node-3014][0m Failed to unmarshal append entries response '' (404 Not Found) with error unexpected end of JSON input
+[97;43m[node-3011][0m 2017/03/18 17:53:34.130232 raft.go:461: Setting election timeout to 238 ms
+[97;45m[node-3013][0m 2017/03/18 17:53:34.130297 raft.go:423: Append entries request response [97;43m[node-3011][0m: &{Term:2 Success:true}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.130337 raft.go:423: Append entries request response [97;44m[node-3012][0m: &{Term:2 Success:true}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.130339 raft.go:423: Append entries request response [97;42m[node-3010][0m: &{Term:2 Success:true}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.281160 raft.go:310: Sending append entries to all nodes...
+[97;45m[node-3013][0m 2017/03/18 17:53:34.281219 raft.go:313: Waiting for hearbeatInterval 150ms
+[97;45m[node-3013][0m 2017/03/18 17:53:34.281303 raft.go:391: Match indices map[node-3011:-1 node-3012:-1 node-3014:-1 node-3010:-1]
+[97;45m[node-3013][0m 2017/03/18 17:53:34.281368 raft.go:391: Match indices map[node-3011:-1 node-3012:-1 node-3014:-1 node-3010:-1]
+[97;45m[node-3013][0m 2017/03/18 17:53:34.281395 raft.go:391: Match indices map[node-3011:-1 node-3012:-1 node-3014:-1 node-3010:-1]
+[97;45m[node-3013][0m 2017/03/18 17:53:34.281451 raft.go:391: Match indices map[node-3011:-1 node-3012:-1 node-3014:-1 node-3010:-1]
+[97;45m[node-3013][0m 2017/03/18 17:53:34.281410 raft.go:412: Sending append entries [97;42m[node-3010][0m: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.281503 raft.go:412: Sending append entries [97;46m[node-3014][0m: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.281494 raft.go:412: Sending append entries [97;43m[node-3011][0m: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.281515 raft.go:412: Sending append entries [97;44m[node-3012][0m: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.281934 server.go:80: Received append entries request with payload: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.281968 server.go:80: Received append entries request with payload: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.281972 server.go:89: Replying to append entries with: &{Term:2 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.282000 server.go:89: Replying to append entries with: &{Term:2 Success:true}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.281976 server.go:80: Received append entries request with payload: &{Term:2 LeaderID:node-3013 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.282045 server.go:89: Replying to append entries with: &{Term:2 Success:true}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.282076 raft.go:271: Received append entries while a follower
+[97;42m[node-3010][0m 2017/03/18 17:53:34.282110 raft.go:461: Setting election timeout to 264 ms
+[97;44m[node-3012][0m 2017/03/18 17:53:34.282116 raft.go:271: Received append entries while a follower
+[97;44m[node-3012][0m 2017/03/18 17:53:34.282146 raft.go:461: Setting election timeout to 248 ms
+[97;43m[node-3011][0m 2017/03/18 17:53:34.282169 raft.go:271: Received append entries while a follower
+[97;43m[node-3011][0m 2017/03/18 17:53:34.282199 raft.go:461: Setting election timeout to 162 ms
+[97;45m[node-3013][0m 2017/03/18 17:53:34.282214 raft.go:423: Append entries request response [97;42m[node-3010][0m: &{Term:2 Success:true}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.282252 raft.go:423: Append entries request response [97;43m[node-3011][0m: &{Term:2 Success:true}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.282277 raft.go:423: Append entries request response [97;44m[node-3012][0m: &{Term:2 Success:true}
+[97;45m[node-3013][0m 2017/03/18 17:53:34.282301 raft.go:416: Failed to send append entries request [97;46m[node-3014][0m Failed to unmarshal append entries response '' (404 Not Found) with error unexpected end of JSON input
+2017/03/18 17:53:34 Exiting node [97;45m[node-3013][0m
+[97;45m[node-3013][0m 2017/03/18 17:53:34.427122 raft.go:109: Exiting raft...
+[97;45m[node-3013][0m 2017/03/18 17:53:34.427140 server.go:44: Stopping server...
+[97;43m[node-3011][0m 2017/03/18 17:53:34.445764 raft.go:275: Follower hasn't received append entries within election timeout, becoming a candidate
+[97;43m[node-3011][0m 2017/03/18 17:53:34.445929 raft.go:353: Sending request vote [97;46m[node-3014][0m: &{Term:3 CandidateID:node-3011 LastLogIndex:-1 LastLogTerm:0}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.445929 raft.go:353: Sending request vote [97;44m[node-3012][0m: &{Term:3 CandidateID:node-3011 LastLogIndex:-1 LastLogTerm:0}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.445929 raft.go:353: Sending request vote [97;42m[node-3010][0m: &{Term:3 CandidateID:node-3011 LastLogIndex:-1 LastLogTerm:0}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.445933 raft.go:353: Sending request vote [97;45m[node-3013][0m: &{Term:3 CandidateID:node-3011 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.446379 server.go:105: Received request vote request with payload: &{Term:3 CandidateID:node-3011 LastLogIndex:-1 LastLogTerm:0}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.446421 server.go:105: Received request vote request with payload: &{Term:3 CandidateID:node-3011 LastLogIndex:-1 LastLogTerm:0}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.446460 server.go:114: Replying to request vote with: &{Term:2 VoteGranted:true}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.446418 server.go:114: Replying to request vote with: &{Term:2 VoteGranted:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446537 raft.go:356: Failed to request vote [97;46m[node-3014][0m: Failed to unmarshal request vote response '' (404 Not Found) with error unexpected end of JSON input
+[97;44m[node-3012][0m 2017/03/18 17:53:34.446566 raft.go:461: Setting election timeout to 249 ms
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446626 raft.go:356: Failed to request vote [97;45m[node-3013][0m: Failed to unmarshal request vote response '' (404 Not Found) with error unexpected end of JSON input
+[97;42m[node-3010][0m 2017/03/18 17:53:34.446646 raft.go:461: Setting election timeout to 238 ms
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446679 raft.go:360: Request vote reply [97;42m[node-3010][0m: &{Term:2 VoteGranted:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446711 raft.go:360: Request vote reply [97;44m[node-3012][0m: &{Term:2 VoteGranted:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446745 raft.go:291: Received 3 votes
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446767 raft.go:293: Becoming a leader...
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446784 raft.go:310: Sending append entries to all nodes...
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446814 raft.go:313: Waiting for hearbeatInterval 150ms
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446861 raft.go:391: Match indices map[node-3012:-1 node-3013:-1 node-3014:-1 node-3010:-1]
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446885 raft.go:391: Match indices map[node-3010:-1 node-3012:-1 node-3013:-1 node-3014:-1]
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446901 raft.go:391: Match indices map[node-3013:-1 node-3014:-1 node-3010:-1 node-3012:-1]
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446923 raft.go:391: Match indices map[node-3010:-1 node-3012:-1 node-3013:-1 node-3014:-1]
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446954 raft.go:412: Sending append entries [97;46m[node-3014][0m: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446986 raft.go:412: Sending append entries [97;44m[node-3012][0m: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446993 raft.go:412: Sending append entries [97;45m[node-3013][0m: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.446971 raft.go:412: Sending append entries [97;42m[node-3010][0m: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.447292 server.go:80: Received append entries request with payload: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.447328 server.go:89: Replying to append entries with: &{Term:3 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.447417 raft.go:416: Failed to send append entries request [97;46m[node-3014][0m Failed to unmarshal append entries response '' (404 Not Found) with error unexpected end of JSON input
+[97;42m[node-3010][0m 2017/03/18 17:53:34.447441 server.go:80: Received append entries request with payload: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.447449 raft.go:271: Received append entries while a follower
+[97;43m[node-3011][0m 2017/03/18 17:53:34.447470 raft.go:416: Failed to send append entries request [97;45m[node-3013][0m Failed to unmarshal append entries response '' (404 Not Found) with error unexpected end of JSON input
+[97;42m[node-3010][0m 2017/03/18 17:53:34.447473 server.go:89: Replying to append entries with: &{Term:3 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.447539 raft.go:423: Append entries request response [97;44m[node-3012][0m: &{Term:3 Success:true}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.447510 raft.go:461: Setting election timeout to 235 ms
+[97;42m[node-3010][0m 2017/03/18 17:53:34.447545 raft.go:271: Received append entries while a follower
+[97;42m[node-3010][0m 2017/03/18 17:53:34.447615 raft.go:461: Setting election timeout to 239 ms
+[97;43m[node-3011][0m 2017/03/18 17:53:34.447757 raft.go:423: Append entries request response [97;42m[node-3010][0m: &{Term:3 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.599882 raft.go:310: Sending append entries to all nodes...
+[97;43m[node-3011][0m 2017/03/18 17:53:34.599948 raft.go:313: Waiting for hearbeatInterval 150ms
+[97;43m[node-3011][0m 2017/03/18 17:53:34.600044 raft.go:391: Match indices map[node-3013:-1 node-3014:-1 node-3010:-1 node-3012:-1]
+[97;43m[node-3011][0m 2017/03/18 17:53:34.600092 raft.go:391: Match indices map[node-3010:-1 node-3012:-1 node-3013:-1 node-3014:-1]
+[97;43m[node-3011][0m 2017/03/18 17:53:34.600116 raft.go:391: Match indices map[node-3010:-1 node-3012:-1 node-3013:-1 node-3014:-1]
+[97;43m[node-3011][0m 2017/03/18 17:53:34.600143 raft.go:391: Match indices map[node-3012:-1 node-3013:-1 node-3014:-1 node-3010:-1]
+[97;43m[node-3011][0m 2017/03/18 17:53:34.600184 raft.go:412: Sending append entries [97;45m[node-3013][0m: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.600219 raft.go:412: Sending append entries [97;42m[node-3010][0m: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.600219 raft.go:412: Sending append entries [97;46m[node-3014][0m: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.600184 raft.go:412: Sending append entries [97;44m[node-3012][0m: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.600670 server.go:80: Received append entries request with payload: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.600681 server.go:80: Received append entries request with payload: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.600726 raft.go:416: Failed to send append entries request [97;45m[node-3013][0m Failed to unmarshal append entries response '' (404 Not Found) with error unexpected end of JSON input
+[97;42m[node-3010][0m 2017/03/18 17:53:34.600714 server.go:89: Replying to append entries with: &{Term:3 Success:true}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.600761 server.go:89: Replying to append entries with: &{Term:3 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.600788 raft.go:416: Failed to send append entries request [97;46m[node-3014][0m Failed to unmarshal append entries response '' (404 Not Found) with error unexpected end of JSON input
+[97;44m[node-3012][0m 2017/03/18 17:53:34.600794 raft.go:271: Received append entries while a follower
+[97;44m[node-3012][0m 2017/03/18 17:53:34.600834 raft.go:461: Setting election timeout to 206 ms
+[97;42m[node-3010][0m 2017/03/18 17:53:34.600842 raft.go:271: Received append entries while a follower
+[97;42m[node-3010][0m 2017/03/18 17:53:34.600870 raft.go:461: Setting election timeout to 239 ms
+[97;43m[node-3011][0m 2017/03/18 17:53:34.600964 raft.go:423: Append entries request response [97;44m[node-3012][0m: &{Term:3 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.600977 raft.go:423: Append entries request response [97;42m[node-3010][0m: &{Term:3 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.752566 raft.go:310: Sending append entries to all nodes...
+[97;43m[node-3011][0m 2017/03/18 17:53:34.752636 raft.go:313: Waiting for hearbeatInterval 150ms
+[97;43m[node-3011][0m 2017/03/18 17:53:34.752746 raft.go:391: Match indices map[node-3010:-1 node-3012:-1 node-3013:-1 node-3014:-1]
+[97;43m[node-3011][0m 2017/03/18 17:53:34.752823 raft.go:391: Match indices map[node-3012:-1 node-3013:-1 node-3014:-1 node-3010:-1]
+[97;43m[node-3011][0m 2017/03/18 17:53:34.752856 raft.go:391: Match indices map[node-3014:-1 node-3010:-1 node-3012:-1 node-3013:-1]
+[97;43m[node-3011][0m 2017/03/18 17:53:34.752884 raft.go:412: Sending append entries [97;42m[node-3010][0m: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.752885 raft.go:391: Match indices map[node-3010:-1 node-3012:-1 node-3013:-1 node-3014:-1]
+[97;43m[node-3011][0m 2017/03/18 17:53:34.752938 raft.go:412: Sending append entries [97;45m[node-3013][0m: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.753027 raft.go:412: Sending append entries [97;46m[node-3014][0m: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.752938 raft.go:412: Sending append entries [97;44m[node-3012][0m: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.753464 server.go:80: Received append entries request with payload: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.753478 server.go:80: Received append entries request with payload: &{Term:3 LeaderID:node-3011 PrevLogIndex:-1 PrevLogTerm:0 Entries:[] LeaderCommit:-1}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.753500 server.go:89: Replying to append entries with: &{Term:3 Success:true}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.753515 server.go:89: Replying to append entries with: &{Term:3 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.753504 raft.go:416: Failed to send append entries request [97;46m[node-3014][0m Failed to unmarshal append entries response '' (404 Not Found) with error unexpected end of JSON input
+[97;43m[node-3011][0m 2017/03/18 17:53:34.753582 raft.go:416: Failed to send append entries request [97;45m[node-3013][0m Failed to unmarshal append entries response '' (404 Not Found) with error unexpected end of JSON input
+[97;44m[node-3012][0m 2017/03/18 17:53:34.753603 raft.go:271: Received append entries while a follower
+[97;42m[node-3010][0m 2017/03/18 17:53:34.753603 raft.go:271: Received append entries while a follower
+[97;44m[node-3012][0m 2017/03/18 17:53:34.753638 raft.go:461: Setting election timeout to 168 ms
+[97;42m[node-3010][0m 2017/03/18 17:53:34.753650 raft.go:461: Setting election timeout to 242 ms
+[97;43m[node-3011][0m 2017/03/18 17:53:34.753696 raft.go:423: Append entries request response [97;44m[node-3012][0m: &{Term:3 Success:true}
+[97;43m[node-3011][0m 2017/03/18 17:53:34.753711 raft.go:423: Append entries request response [97;42m[node-3010][0m: &{Term:3 Success:true}
+2017/03/18 17:53:34 Exiting node [97;43m[node-3011][0m
+[97;43m[node-3011][0m 2017/03/18 17:53:34.828593 raft.go:109: Exiting raft...
+[97;43m[node-3011][0m 2017/03/18 17:53:34.828615 server.go:44: Stopping server...
+[97;44m[node-3012][0m 2017/03/18 17:53:34.922052 raft.go:275: Follower hasn't received append entries within election timeout, becoming a candidate
+[97;44m[node-3012][0m 2017/03/18 17:53:34.922182 raft.go:353: Sending request vote [97;46m[node-3014][0m: &{Term:4 CandidateID:node-3012 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.922252 raft.go:353: Sending request vote [97;45m[node-3013][0m: &{Term:4 CandidateID:node-3012 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.922191 raft.go:353: Sending request vote [97;42m[node-3010][0m: &{Term:4 CandidateID:node-3012 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.922191 raft.go:353: Sending request vote [97;43m[node-3011][0m: &{Term:4 CandidateID:node-3012 LastLogIndex:-1 LastLogTerm:0}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.922689 server.go:105: Received request vote request with payload: &{Term:4 CandidateID:node-3012 LastLogIndex:-1 LastLogTerm:0}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.922726 server.go:114: Replying to request vote with: &{Term:3 VoteGranted:true}
+[97;42m[node-3010][0m 2017/03/18 17:53:34.922770 raft.go:461: Setting election timeout to 154 ms
+[97;44m[node-3012][0m 2017/03/18 17:53:34.922784 raft.go:356: Failed to request vote [97;45m[node-3013][0m: Failed to unmarshal request vote response '' (404 Not Found) with error unexpected end of JSON input
+[97;44m[node-3012][0m 2017/03/18 17:53:34.922834 raft.go:356: Failed to request vote [97;46m[node-3014][0m: Failed to unmarshal request vote response '' (404 Not Found) with error unexpected end of JSON input
+[97;44m[node-3012][0m 2017/03/18 17:53:34.922795 raft.go:356: Failed to request vote [97;43m[node-3011][0m: Failed to unmarshal request vote response '' (404 Not Found) with error unexpected end of JSON input
+[97;44m[node-3012][0m 2017/03/18 17:53:34.922941 raft.go:360: Request vote reply [97;42m[node-3010][0m: &{Term:3 VoteGranted:true}
+[97;44m[node-3012][0m 2017/03/18 17:53:34.922967 raft.go:291: Received 2 votes
+[97;44m[node-3012][0m 2017/03/18 17:53:34.922988 raft.go:461: Setting election timeout to 268 ms
+[97;42m[node-3010][0m 2017/03/18 17:53:35.077763 raft.go:275: Follower hasn't received append entries within election timeout, becoming a candidate
+[97;42m[node-3010][0m 2017/03/18 17:53:35.077907 raft.go:353: Sending request vote [97;46m[node-3014][0m: &{Term:4 CandidateID:node-3010 LastLogIndex:-1 LastLogTerm:0}
+[97;42m[node-3010][0m 2017/03/18 17:53:35.077925 raft.go:353: Sending request vote [97;45m[node-3013][0m: &{Term:4 CandidateID:node-3010 LastLogIndex:-1 LastLogTerm:0}
+[97;42m[node-3010][0m 2017/03/18 17:53:35.077919 raft.go:353: Sending request vote [97;44m[node-3012][0m: &{Term:4 CandidateID:node-3010 LastLogIndex:-1 LastLogTerm:0}
+[97;42m[node-3010][0m 2017/03/18 17:53:35.077938 raft.go:353: Sending request vote [97;43m[node-3011][0m: &{Term:4 CandidateID:node-3010 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:35.078343 server.go:105: Received request vote request with payload: &{Term:4 CandidateID:node-3010 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:35.078378 server.go:114: Replying to request vote with: &{Term:4 VoteGranted:true}
+[97;42m[node-3010][0m 2017/03/18 17:53:35.078405 raft.go:356: Failed to request vote [97;46m[node-3014][0m: Failed to unmarshal request vote response '' (404 Not Found) with error unexpected end of JSON input
+[97;42m[node-3010][0m 2017/03/18 17:53:35.078425 raft.go:356: Failed to request vote [97;45m[node-3013][0m: Failed to unmarshal request vote response '' (404 Not Found) with error unexpected end of JSON input
+[97;42m[node-3010][0m 2017/03/18 17:53:35.078533 raft.go:356: Failed to request vote [97;43m[node-3011][0m: Failed to unmarshal request vote response '' (404 Not Found) with error unexpected end of JSON input
+[97;42m[node-3010][0m 2017/03/18 17:53:35.078553 raft.go:360: Request vote reply [97;44m[node-3012][0m: &{Term:4 VoteGranted:true}
+[97;42m[node-3010][0m 2017/03/18 17:53:35.078603 raft.go:291: Received 2 votes
+[97;42m[node-3010][0m 2017/03/18 17:53:35.078627 raft.go:461: Setting election timeout to 251 ms
+[97;44m[node-3012][0m 2017/03/18 17:53:35.193467 raft.go:299: Election timeout has passed
+[97;44m[node-3012][0m 2017/03/18 17:53:35.193593 raft.go:353: Sending request vote [97;46m[node-3014][0m: &{Term:5 CandidateID:node-3012 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:35.193594 raft.go:353: Sending request vote [97;43m[node-3011][0m: &{Term:5 CandidateID:node-3012 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:35.193626 raft.go:353: Sending request vote [97;45m[node-3013][0m: &{Term:5 CandidateID:node-3012 LastLogIndex:-1 LastLogTerm:0}
+[97;44m[node-3012][0m 2017/03/18 17:53:35.193628 raft.go:353: Sending request vote [97;42m[node-3010][0m: &{Term:5 CandidateID:node-3012 LastLogIndex:-1 LastLogTerm:0}
+[97;42m[node-3010][0m 2017/03/18 17:53:35.194147 server.go:105: Received request vote request with payload: &{Term:5 CandidateID:node-3012 LastLogIndex:-1 LastLogTerm:0}
+[97;42m[node-3010][0m 2017/03/18 17:53:35.194183 server.go:114: Replying to request vote with: &{Term:4 VoteGranted:true}
+[97;44m[node-3012][0m 2017/03/18 17:53:35.194187 raft.go:356: Failed to request vote [97;45m[node-3013][0m: Failed to unmarshal request vote response '' (404 Not Found) with error unexpected end of JSON input
+[97;44m[node-3012][0m 2017/03/18 17:53:35.194200 raft.go:356: Failed to request vote [97;46m[node-3014][0m: Failed to unmarshal request vote response '' (404 Not Found) with error unexpected end of JSON input
+[97;44m[node-3012][0m 2017/03/18 17:53:35.194203 raft.go:356: Failed to request vote [97;43m[node-3011][0m: Failed to unmarshal request vote response '' (404 Not Found) with error unexpected end of JSON input
+[97;44m[node-3012][0m 2017/03/18 17:53:35.194378 raft.go:360: Request vote reply [97;42m[node-3010][0m: &{Term:4 VoteGranted:true}
+[97;44m[node-3012][0m 2017/03/18 17:53:35.194408 raft.go:291: Received 2 votes
+[97;44m[node-3012][0m 2017/03/18 17:53:35.194424 raft.go:461: Setting election timeout to 185 ms
+2017/03/18 17:53:35 Exiting node [97;42m[node-3010][0m
+2017/03/18 17:53:35 Exiting node [97;44m[node-3012][0m
+[97;42m[node-3010][0m 2017/03/18 17:53:35.229239 raft.go:109: Exiting raft...
+PASS
+[97;44m[node-3012][0m 2017/03/18 17:53:35.229257 raft.go:109: Exiting raft...
+[97;42m[node-3010][0m 2017/03/18 17:53:35.229290 server.go:44: Stopping server...
+ok  	github.com/neale/goFlow/raft_test	1.619s
