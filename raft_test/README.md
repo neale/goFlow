@@ -9,6 +9,10 @@ Needs assert package, fetch using `go get github.com/stretchr/testify/assert`
 
 simply run using `go test` in the parent directory, the console will print status messages detailing everything
 
+For viewing, output log into file with `go test > log.log` then `cat log.log | less` this will allow you to render to output better than vim, and be able to view log messages
+
+change # of testing services by assigning `n` a different value in `raft_test.go`
+
 ## Status
 * [x] Leader election
 * [x] Log replication
